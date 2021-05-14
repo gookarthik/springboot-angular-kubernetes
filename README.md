@@ -1,4 +1,5 @@
 $ cd /home/ubuntu/test/springboot-angular-kubernetes
+
 $ mvn package -Dmaven.test.skip=true
 $ docker build -t gookarthik/angular-spring-mysql:spring .
 
