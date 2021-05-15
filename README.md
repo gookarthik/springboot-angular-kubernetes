@@ -1,5 +1,7 @@
 $ cd /home/ubuntu/test/springboot-angular-kubernetes
 
+This require JAVA 11
+
 $ mvn package -Dmaven.test.skip=true
 
 $ docker build -t gookarthik/angular-spring-mysql:spring .
